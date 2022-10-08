@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "188465586913",
+    "project_id": "music-app-d9b5d",
+    "storage_bucket": "music-app-d9b5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:188465586913:android:af7f04255e4bf3f9354da0",
+        "android_client_info": {
+          "package_name": "com.lord_ukaka.musicapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "188465586913-jt856omv6v4m3cu5b23cmfpo4ur40meo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAttsfSHRNc-QlFRtKz2MMwUCaQg7A1xD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "188465586913-jt856omv6v4m3cu5b23cmfpo4ur40meo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

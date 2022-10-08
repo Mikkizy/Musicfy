@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment2">
+
+
+    <fragment
+        android:id="@+id/homeFragment2"
+        android:name="com.lord_ukaka.musicapp.ui.fragments.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/songFragment"
+        android:name="com.lord_ukaka.musicapp.ui.fragments.SongFragment"
+        android:label="SongFragment" />
+
+<!--    This is a global action that leads to songFragment-->
+    <action android:id="@+id/globalActionToSongFragment"
+        app:destination="@+id/songFragment" />
+</navigation>
